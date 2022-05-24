@@ -9,12 +9,12 @@ input {
   font-family: inherit;
   font-size: 1rem;
   font-weight: 600;
-  color: $color_dark_2;
+  color: white;
   @include transition(all, 0.2s, linear);
 }
 
 input::placeholder {
   font-weight: 400;
-  color: $color_label;
+  color: $color_grey_3;
   padding-right: 1.6rem;
 }
