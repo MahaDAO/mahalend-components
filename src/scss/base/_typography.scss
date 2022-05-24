@@ -36,9 +36,8 @@
 }
 
 body {
-  font-family: 'Haas Grot Text R', sans-serif;
-  font-weight: 500;
-  line-height: 1;
+  font-family: 'Inter', sans-serif;
+  font-weight: 300;
   color: $color_dark_2;
 }
 
@@ -53,7 +52,7 @@ h5 {
 }
 
 h1 {
-  font-family: 'Haas Grot Disp R';
+  font-family: 'Syne';
   font-style: normal;
   font-size: 2.462rem;
   line-height: 3.231rem;
@@ -65,7 +64,7 @@ h1 {
 }
 
 h2 {
-  font-family: 'Haas Grot Disp R';
+  font-family: 'Syne';
   font-style: normal;
   font-weight: 700;
   font-size: 2rem;
@@ -73,7 +72,7 @@ h2 {
 }
 
 h3 {
-  font-family: 'Haas Grot Disp R';
+  font-family: 'Syne';
   font-weight: 700;
   font-style: normal;
   font-size: 1.5rem;
@@ -82,7 +81,7 @@ h3 {
 }
 
 h4 {
-  font-family: 'Haas Grot Disp R';
+  font-family: 'Syne';
   font-weight: 700;
   font-style: normal;
   font-size: 1.35rem;
@@ -95,7 +94,7 @@ h4 {
 }
 
 h5 {
-  font-family: 'Haas Grot Disp R';
+  font-family: 'Syne';
   font-style: normal;
   font-size: 1.35rem;
   line-height: 1.75rem;
@@ -107,7 +106,7 @@ h5 {
 }
 
 p {
-  font-family: 'Haas Grot Text R';
+  font-family: 'Inter';
   font-style: normal;
   font-size: 16px;
   line-height: 24px;
@@ -208,21 +207,21 @@ code {
 .label,
 label {
   cursor: inherit;
-  font-family: 'Haas Grot Text R';
+  font-family: 'Inter';
   font-style: normal;
   font-weight: 600;
   font-size: 12px;
   color: $color_grey_2;
 
   &.big {
-    font-family: 'Haas Grot Disp R';
+    font-family: 'Syne';
     font-weight: 500;
     font-style: normal;
     font-size: 2rem;
   }
 
   &.medium {
-    font-family: 'Haas Grot Disp R';
+    font-family: 'Syne';
     font-weight: 500;
     font-style: normal;
     font-size: 1.5rem;
