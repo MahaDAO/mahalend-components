@@ -68,9 +68,9 @@ input[type='button'] {
     }
   }
   &.borrow {
-    @include btn($color_borrow);
+    @include btn($color_orange);
     &.pending {
-      @include shimmer($color_borrow);
+      @include shimmer($color_orange);
     }
   }
   &.neutral {
@@ -101,7 +101,7 @@ input[type='button'] {
     }
   }
   &.outline-borrow {
-    @include outline($color_borrow);
+    @include outline($color_orange);
     &.pending {
       @include shimmer($color_light_2);
     }

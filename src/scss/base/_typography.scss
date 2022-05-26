@@ -163,7 +163,7 @@ code {
     color: $color_grey_2;
 
     &.keyword {
-      color: $color_borrow;
+      color: $color_orange;
     }
 
     &.function {
@@ -233,7 +233,7 @@ label {
     color: $color_orange;
   }
   &.borrow {
-    color: $color_borrow;
+    color: $color_orange;
   }
   &.treasury {
     color: $color_blue_1;
@@ -315,11 +315,11 @@ a:hover {
 }
 
 .elmsh3 {
-  color: $color_borrow;
+  color: $color_orange;
 }
 
 .elmsh4 {
-  color: $color_borrow;
+  color: $color_orange;
 }
 
 .elmsh5 {

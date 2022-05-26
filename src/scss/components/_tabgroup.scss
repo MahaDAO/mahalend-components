@@ -84,9 +84,9 @@
         }
 
         &--purple {
-          color: $color_borrow;
+          color: $color_orange;
           &::after {
-            background: $color_borrow;
+            background: $color_orange;
           }
         }
       }
@@ -97,8 +97,8 @@
       }
 
       &--purple {
-        color: $color_borrow;
-        border-color: $color_borrow;
+        color: $color_orange;
+        border-color: $color_orange;
       }
 
       &--white {
