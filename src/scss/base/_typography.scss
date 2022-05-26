@@ -171,7 +171,7 @@ code {
     }
 
     &.argument {
-      color: $color_dark_2;
+      color: $color_light_1;
     }
 
     &.string {
@@ -337,7 +337,7 @@ a:hover {
 .inline-code {
   font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
   font-size: small;
-  color: $color_dark_2;
+  color: $color_light_1;
   background-color: $color_light_2;
   padding: 0.2rem;
 }

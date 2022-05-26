@@ -56,15 +56,15 @@ $comment_color: #969896;
 //TODO: Should probably have this kept in typography but we'll leave here for now.
 @mixin typography-colors {
   h2 {
-    color: $color_dark_2;
+    color: $color_light_1;
   }
 
   h3 {
-    color: $color_dark_2;
+    color: $color_light_1;
   }
 
   h4 {
-    color: $color_dark_2;
+    color: $color_light_1;
   }
 
   p {

@@ -4,15 +4,15 @@
 
 @mixin connect-wallet-typography-colors {
   h2 {
-    color: $color_dark_2;
+    color: $color_light_1;
   }
 
   h3 {
-    color: $color_dark_2;
+    color: $color_light_1;
   }
 
   h4 {
-    color: $color_dark_2;
+    color: $color_light_1;
   }
 
   p {
@@ -139,7 +139,7 @@
 
     div.dropdown__option--light {
       p:nth-of-type(1) {
-        color: $color_dark_2;
+        color: $color_light_1;
       }
 
       p:only-child {
@@ -241,7 +241,7 @@
       box-shadow: 0px 0px 24px rgba(0, 0, 0, 0.08);
 
       .connect-item-text {
-        color: $color_dark_2;
+        color: $color_light_1;
       }
     }
 
