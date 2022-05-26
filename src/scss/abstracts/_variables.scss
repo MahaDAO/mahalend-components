@@ -90,12 +90,12 @@ $comment_color: #969896;
 }
 
 @mixin shadow(){
-  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.04);
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.04);
 }
 
 @mixin panel(){
-  background: #FFFFFF;
-  border: 1px solid $color_light_2;
+  //background: #FFFFFF;
+  //border: 1px solid $color_light_2;
   border-radius: $border_radius;
   @include shadow();
 }
