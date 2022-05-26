@@ -77,9 +77,9 @@
         }
 
         &--green {
-          color: $color_supply;
+          color: $color_orange;
           &::after {
-            background: $color_supply;
+            background: $color_orange;
           }
         }
 
@@ -92,8 +92,8 @@
       }
 
       &--green {
-        color: $color_supply;
-        border-color: $color_supply;
+        color: $color_orange;
+        border-color: $color_orange;
       }
 
       &--purple {

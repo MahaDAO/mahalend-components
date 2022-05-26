@@ -126,7 +126,7 @@
     @include anchor;
 
     &:hover {
-      color: $color_supply;
+      color: $color_orange;
     }
 
     &--disabled {
@@ -171,10 +171,10 @@
       }
 
       &:hover {
-        color: $color_supply;
+        color: $color_orange;
 
         label {
-          color: $color_supply;
+          color: $color_orange;
         }
       }
     }
@@ -212,10 +212,10 @@
       }
 
       &:hover {
-        color: $color_supply;
+        color: $color_orange;
 
         label {
-          color: $color_supply;
+          color: $color_orange;
         }
       }
     }

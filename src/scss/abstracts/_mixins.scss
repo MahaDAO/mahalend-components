@@ -13,7 +13,7 @@
 @mixin inline-anchor {
   a {
     border-bottom: 1px solid transparent;
-    color: $color_supply;
+    color: $color_orange;
     font-family: 'Haas Grot Text R';
     font-weight: 500;
     font-size: 16px;
@@ -24,7 +24,7 @@
     text-transform: none;
 
     &:hover {
-      border-bottom: 1px solid $color_supply;
+      border-bottom: 1px solid $color_orange;
     }
   }
 }
@@ -47,7 +47,7 @@
 
       &::before {
         content: '\2022\00a0\00a0';
-        color: $color_supply;
+        color: $color_orange;
         position: absolute;
         left: 0;
         margin-top: 0.26rem;

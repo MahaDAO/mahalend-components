@@ -18,6 +18,7 @@ $primary-material: linear-gradient(180deg,#48423e,#373030);
 
 $color_supply_light: #D4F6EC;
 $color_borrow_light: #EAE1FB;
+$color_orange_light: #FEE2D5;
 $color_neutral: #546E7A;
 
 $color_border: rgba(#000000, 0.05);
@@ -135,7 +136,7 @@ $comment_color: #969896;
   }
 
   &:hover {
-    color: $color_supply;
+    color: $color_orange;
     text-decoration: underline;
 
     &::after {
@@ -183,7 +184,7 @@ $comment_color: #969896;
     user-select: none;
 
     a {
-      color: $color_supply;
+      color: $color_orange;
       border-bottom: 1px solid transparent;
       transition: border-bottom 0.2s ease-in-out;
     }
@@ -195,7 +196,7 @@ $comment_color: #969896;
 
     &:hover {
       a {
-        border-bottom: 1px solid $color_supply;
+        border-bottom: 1px solid $color_orange;
       }
 
       #arrow {

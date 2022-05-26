@@ -62,9 +62,9 @@ input[type='button'] {
   }
 
   &.main {
-    @include btn($color_supply);
+    @include btn($color_orange);
     &.pending {
-      @include shimmer($color_supply);
+      @include shimmer($color_orange);
     }
   }
   &.borrow {
@@ -95,7 +95,7 @@ input[type='button'] {
     }
   }
   &.outline-main {
-    @include outline($color_supply);
+    @include outline($color_orange);
     &.pending {
       @include shimmer($color_light_2);
     }

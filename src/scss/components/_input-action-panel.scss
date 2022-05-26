@@ -111,9 +111,9 @@
     font-size: 2.625rem; //This value is overwritten in elm based on character count
     font-weight: 500;
     text-align: center;
-    color: $color_dark_2;
+    color: $color_light_1;
     &.supply {
-      caret-color: $color_supply;
+      caret-color: $color_orange;
     }
     &.borrow {
       caret-color: $color_borrow;
@@ -147,7 +147,7 @@
 
       &:hover {
         label {
-          color: $color_supply;
+          color: $color_orange;
         }
         .line-icon {
           background-image: url('/compound-components/assets/icn-external-link-green.svg');

@@ -148,7 +148,7 @@
 
       &:hover {
         p {
-          color: $color_supply;
+          color: $color_orange;
         }
       }
     }
@@ -289,7 +289,7 @@
 
     a {
       border-bottom: 1px solid transparent;
-      color: $color_supply;
+      color: $color_orange;
       font-family: 'Haas Grot Text R';
       font-weight: 500;
       font-size: 12px;
@@ -300,7 +300,7 @@
       text-transform: none;
 
       &:hover {
-        border-bottom: 1px solid $color_supply;
+        border-bottom: 1px solid $color_orange;
       }
     }
   }

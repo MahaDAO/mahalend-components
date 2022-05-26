@@ -239,7 +239,7 @@
       background-color: $color_light_2;
 
       p {
-        color: $color_supply;
+        color: $color_orange;
       }
     }
   }
@@ -279,7 +279,7 @@
 
     &:hover {
       background-color: transparent;
-      color: $color_supply;
+      color: $color_orange;
     }
 
     @media (max-width: $device-sm) {

@@ -150,7 +150,7 @@ pre {
 }
 
 .line-numbers {
-  background-color: $color_supply;
+  background-color: $color_orange;
   height: 100%;
   opacity: 0.1;
   width: 3.4375rem;
@@ -167,7 +167,7 @@ code {
     }
 
     &.function {
-      color: $color_supply;
+      color: $color_orange;
     }
 
     &.argument {
@@ -185,7 +185,7 @@ code {
 
     &:before {
       margin-right: 2rem;
-      color: $color_supply;
+      color: $color_orange;
       content: counter(line);
       -webkit-user-select: none;
     }
@@ -230,7 +230,7 @@ label {
     color: $color_grey_1;
   }
   &.supply {
-    color: $color_supply;
+    color: $color_orange;
   }
   &.borrow {
     color: $color_borrow;
@@ -251,7 +251,7 @@ a:focus {
 
 a:active,
 a:hover {
-  color: $color_supply;
+  color: $color_orange;
   outline: 0;
   text-decoration: none;
 }
@@ -323,7 +323,7 @@ a:hover {
 }
 
 .elmsh5 {
-  color: $color_supply;
+  color: $color_orange;
 }
 
 .elmsh6 {
