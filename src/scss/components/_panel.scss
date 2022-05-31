@@ -223,6 +223,7 @@
 }
 
 .legacy-panel {
+  background: $primary-material;
   @include panel();
   margin-bottom: $column-gutter;
   .header {
